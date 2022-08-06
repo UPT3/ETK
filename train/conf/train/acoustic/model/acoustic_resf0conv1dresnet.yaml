@@ -9,7 +9,7 @@ netG:
   _target_: nnsvs.acoustic_models.ResF0Conv1dResnet
   in_dim: 372
   out_dim: 199
-  hidden_dim: 256
+  hidden_dim: 768
   num_layers: 4
   init_type: "none"
   use_mdn: false

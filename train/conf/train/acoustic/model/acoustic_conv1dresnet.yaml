@@ -10,7 +10,7 @@ netG:
   _target_: nnsvs.model.Conv1dResnet
   in_dim: 372
   out_dim: 199
-  hidden_dim: 512
+  hidden_dim: 768
   num_layers: 4
   init_type: "none"
   use_mdn: false
