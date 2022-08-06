@@ -1,8 +1,8 @@
 #!/bin/bash
-#------------------------------------------------------------------------------
+
 # Copyright 2012  Johns Hopkins University (Author: Daniel Povey);
 #                 Arnab Ghoshal, Karel Vesely
-#
+
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
 # You may obtain a copy of the License at
@@ -15,7 +15,6 @@
 # MERCHANTABLITY OR NON-INFRINGEMENT.
 # See the Apache 2 License for the specific language governing permissions and
 # limitations under the License.
-#------------------------------------------------------------------------------
 
 
 # Parse command-line options.
@@ -25,11 +24,11 @@
 # The exception is --help, which takes no arguments, but prints the
 # $help_message variable (if defined).
 
+
 ###
 ### The --config file options have lower priority to command line
 ### options, so we need to import them first...
 ###
-
 
 # Now import all the configs specified by command-line, in left-to-right order
 for ((argpos=1; argpos<$#; argpos++)); do
