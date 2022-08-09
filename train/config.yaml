@@ -28,6 +28,7 @@ acoustic_features:          static_deltadelta
 
 trajectory_smoothing: false
 trajectory_smoothing_cutoff: 50
+trajectory_smoothing_cutoff_f0: 20
 
 # stage 4
 # symlink during training in notebook.
