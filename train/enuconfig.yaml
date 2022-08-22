@@ -3,8 +3,8 @@
 
 trained_for_enunu:      false
 
-question_path:          hed/upt3_jp.hed
-table_path:             dic/upt3_jp.table
+question_path:          hed/intunist_jp.hed
+table_path:             dic/intunist_jp.table
 
 defaults:
     - hydra/job_logging: colorlog
@@ -29,7 +29,7 @@ stats_dir:              dump/Unnamed/norm
 model_dir:              exp/Unnamed
 
 acoustic:
-    question_path:      hed/DVX_jp.hed
+    question_path:      hed/intunist_jp.hed
     checkpoint:         best_loss.pth
     in_scaler_path:     null
     out_scaler_path:    null
@@ -40,12 +40,12 @@ acoustic:
 
 duration:
     checkpoint:         best_loss.pth
-    question_path:      hed/DVX_jp.hed
+    question_path:      hed/intunist_jp.hed
     in_scaler_path:     null
     out_scaler_path:    null
 
 timelag:
-    question_path:      hed/DVX_jp.hed
+    question_path:      hed/intunist_jp.hed
     checkpoint:         best_loss.pth
     in_scaler_path:     null
     out_scaler_path:    null
