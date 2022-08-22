@@ -1,7 +1,7 @@
 #Customized JP HED for NNSVS. Based on HED from r9y9/NNSVS repo.
-#in_dim: 368(duration/timelag), 372(acoustic)
+#in_dim: 359(duration/timelag), 363(acoustic)
 #in_rest_idx: 14
-#in_lfx0_idx: 323
+#in_lfx0_idx: 314
 
 #tone flags
 QS      "falsetto"                              {*^F_*}
