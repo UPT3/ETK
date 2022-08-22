@@ -1,13 +1,13 @@
 nnsvs_root:                 nnsvs
 spk:                        unnamed
-tag:                        upt3_prototyping_notebook
+tag:                        intunist_prototyping_notebook
 
 out_dir:                    data
 
 exclude_songs:              []
 
-table_path:                 dic/upt3_jp.table
-question_path:              hed/upt3_jp.hed
+table_path:                 dic/intunist_jp.table
+question_path:              hed/intunist_jp.hed
 
 sample_rate:                44100
 
