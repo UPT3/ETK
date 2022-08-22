@@ -1,7 +1,6 @@
 # ENUNU Training Kit
 
-### Fork of the ENUNU Training Kit (ETK) for the DYVAUX notebooks.
-May not work for local training.
+### Fork of the ENUNU Training Kit (ETK) for Intunist use.
 
 With UST, LAB, and WAV, you can easily generate models.
 
