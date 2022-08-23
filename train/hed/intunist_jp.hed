@@ -340,9 +340,9 @@ QS      "L-Phone_vf"                            {*^vf-*}
 QS      "C-Phone_vf"                            {*-vf+*}
 QS      "R-Phone_vf"                            {*+vf=*}
 
-QS      "L-Phone_gs"                            {*^gs-*}
-QS      "C-Phone_gs"                            {*-gs+*}
-QS      "R-Phone_gs"                            {*+gs=*}
+QS      "L-Phone_q"                             {*^q-*}
+QS      "C-Phone_q"                             {*-q+*}
+QS      "R-Phone_q"                             {*+q=*}
 
 QS      "L-Phone_trash"                         {*^trash-*}
 QS      "C-Phone_trash"                         {*-trash+*}
