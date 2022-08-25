@@ -5,7 +5,7 @@ else
 fi
 
 if [ ! -z "${pretrained_expdir}" ]; then
-    resume_checkpoint=$pretrained_expdir/${duration_model}/latest.pth
+    resume_checkpoint=$pretrained_expdir/duration/best_loss.pth
 else
     resume_checkpoint=
 fi
