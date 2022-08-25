@@ -29,7 +29,7 @@ netG:
   reduction_factor: 2
   init_type: "none"
   # resf0 config
-  in_lf0_idx: 389
+  in_lf0_idx: 314
   out_lf0_idx: 180
   in_lf0_min: null
   in_lf0_max: null
