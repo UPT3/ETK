@@ -352,28 +352,28 @@ sil sil
 ヂェ j E
 ぢょ j o
 ヂョ j O
-・あ gs a
-・ア gs A
-・い gs i
-・イ gs I
-・う gs u
-・ウ gs U
-・え gs e
-・エ gs E
-・お gs o
-・オ gs O
-・ん gs N
--あ gs a
--ア gs A
--い gs i
--イ gs I
--う gs u
--ウ gs U
--え gs e
--エ gs E
--お gs o
--オ gs O
--ん gs N
+・あ q a
+・ア q A
+・い q i
+・イ q I
+・う q u
+・ウ q U
+・え q e
+・エ q E
+・お q o
+・オ q O
+・ん q N
+-あ q a
+-ア q A
+-い q i
+-イ q I
+-う q u
+-ウ q U
+-え q e
+-エ q E
+-お q o
+-オ q O
+-ん q N
 ’あ vf a
 ’ア vf A
 ’い vf i
@@ -756,11 +756,12 @@ tyE ty E
 s s
 h h
 sh sh
-gs gs
+q q
+gs q
 vf vf
 VocalFry vf
 vocalfry vf
 Edge vf
 edge vf
-GlottalStop gs
-glottalstop gs
+GlottalStop q
+glottalstop q
