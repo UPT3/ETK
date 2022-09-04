@@ -25,7 +25,7 @@ QS      "L-Phone_Muon"                          {*^sil-*,*^pau-*}
 QS      "C-Phone_Muon"                          {*-sil+*,*-pau+*}
 QS      "R-Phone_Muon"                          {*+sil=*,*+pau=*}
 
-QS      "L-VUV_Voiced"                          {*^a-*,*^i-*,*^u-*,*^e-*,*^o-*,*^b-*,*^by-*,*^m-*,*^my-*,*^w-*,*^d-*,*^dy-*,*^n-*,*^ny-*,*^N-*,*^r-*,*^ry-*,*^y-*}
+QS      "L-VUV_Voiced"                          {*^a-*,*^i-*,*^u-*,*^e-*,*^o-*,*^b-*,*^by-*,*^m-*,*^my-*,*^w-*,*^n-*,*^ny-*,*^N-*,*^r-*,*^ry-*,*^y-*}
 QS      "L-VUV_Unvoiced"                        {*^A-*,*^I-*,*^U-*,*^E-*,*^O-*,*^f-*,*^p-*,*^py-*,*^s-*,*^sh-*,*^ts-*,*^ch-*,*^t-*,*^ty-*,*^k-*,*^ky-*.*^hy-*}
 
 QS      "L-Phone_Boin"                          {*^a-*,*^i-*,*^u-*,*^e-*,*^o-*,*^A-*,*^I-*,*^U-*,*^E-*,*^O-*}
