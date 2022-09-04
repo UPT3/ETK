@@ -9,8 +9,8 @@ checkpoint_epoch_interval: 22
 
 feats_criterion: mae
 
-pitch_reg_weight: 0.3
-pitch_reg_decay_size: 120
+pitch_reg_weight: 0.15
+pitch_reg_decay_size: 400
 
 force_fix_vuv: true
 
