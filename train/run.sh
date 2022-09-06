@@ -43,7 +43,9 @@ expdir="exp/$expname"
 # Prepare files in singing-database for training
 if [ ${stage} -le 0 ] && [ ${stop_stage} -ge 0 ]; then
     echo ""
+    echo "###"
     echo "stage 0: Data preparation"
+    echo "###"
     echo ""
     rm -rf $out_dir
     rm -f preprocess_data.py.log
@@ -52,7 +54,9 @@ fi
 
 if [ ${stage} -le 1 ] && [ ${stop_stage} -ge 1 ]; then
     echo ""
-    echo "stage 1: Feature generation#"
+    echo "###"
+    echo "stage 1: Feature generation"
+    echo "###"
     echo ""
     rm -rf $dumpdir
     . $NNSVS_COMMON_ROOT/feature_generation.sh || exit 1;
@@ -60,28 +64,36 @@ fi
 
 if [ ${stage} -le 2 ] && [ ${stop_stage} -ge 2 ]; then
     echo ""
+    echo "###"
     echo "stage 2: Time-lag model training"
+    echo "###"
     echo ""
     . $NNSVS_COMMON_ROOT/train_timelag.sh || exit 1;
 fi
 
 if [ ${stage} -le 3 ] && [ ${stop_stage} -ge 3 ]; then
     echo ""
+    echo "###"
     echo "stage 3: Duration model training"
+    echo "###"
     echo ""
     . $NNSVS_COMMON_ROOT/train_duration.sh || exit 1;
 fi
 
 if [ ${stage} -le 4 ] && [ ${stop_stage} -ge 4 ]; then
     echo ""
+    echo "###"
     echo "stage 4: Training acoustic model"
+    echo "###"
     echo ""
     . $NNSVS_COMMON_ROOT/train_acoustic.sh || exit 1;
 fi
 
 if [ ${stage} -le 5 ] && [ ${stop_stage} -ge 5 ]; then
     echo ""
+    echo "###"
     echo "stage 5: Feature generation"
+    echo "###"
     echo ""
     . $NNSVS_COMMON_ROOT/generate.sh || exit 1;
 fi
