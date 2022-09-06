@@ -1,7 +1,7 @@
 echo "Installing, this wil take about 8 minutes."
 apt-get update
 echo "installing 7z"
-apt-get install -qq p7zip-full p7zip-rar libsndfile1
+apt-get install -qq p7zip-full libsndfile1
 echo "updating pip"
 pip install --upgrade pip
 echo "installing nnsvs main branch"
