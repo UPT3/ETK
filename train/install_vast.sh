@@ -1,3 +1,4 @@
+# for use on VAST with python:3.8-buster image.
 echo "Installing, this wil take about 8 minutes."
 apt-get update
 echo "installing 7z"
