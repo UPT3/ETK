@@ -29,7 +29,7 @@ netD:
   in_dim: null
   channels: 32
   kernel_size: [7, 3]
-  padding: null
+  padding: [0, 0]
   padding_mode: "zeros"
   last_sigmoid: false
   init_type: "kaiming_normal"
