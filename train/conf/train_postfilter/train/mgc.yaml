@@ -32,7 +32,7 @@ optim:
     optimizer:
       name: RAdam
       params:
-        lr: 0.0001
+        lr: 0.0005
         betas: [0.5, 0.9]
         weight_decay: 0.0
     lr_scheduler:
@@ -45,7 +45,7 @@ optim:
     optimizer:
       name: RAdam
       params:
-        lr: 0.0001
+        lr: 0.0005
         betas: [0.5, 0.9]
         weight_decay: 0.0
     lr_scheduler:
