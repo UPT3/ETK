@@ -14,7 +14,7 @@ netG:
     in_dim: 58
     channels: 64
     kernel_size: [5, 5]
-    init_type: "none"
+    init_type: "kaiming_normal"
     noise_type: "frame_wise"
     noise_scale: 1.0
     smoothing_width: 100
@@ -32,4 +32,4 @@ netD:
   padding: [0, 0]
   padding_mode: "zeros"
   last_sigmoid: false
-  init_type: "none"
+  init_type: "kaiming_normal"
