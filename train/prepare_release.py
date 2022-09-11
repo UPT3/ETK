@@ -61,6 +61,9 @@ def copy_model(singer, exp_name, release_dir):
     makedirs(f'{release_dir}/exp/{exp_name}/acoustic', exist_ok=True)
     makedirs(f'{release_dir}/exp/{exp_name}/duration', exist_ok=True)
     makedirs(f'{release_dir}/exp/{exp_name}/timelag', exist_ok=True)
+    makedirs(f'{release_dir}/exp/{exp_name}/postfilter_mgc', exist_ok=True)
+    makedirs(f'{release_dir}/exp/{exp_name}/postfilter_bap', exist_ok=True)
+    makedirs(f'{release_dir}/exp/{exp_name}/postfilter_merged', exist_ok=True)
     list_path_model = glob(f'exp/{exp_name}/*/*.pth')
     list_path_model += glob(f'exp/{exp_name}/*/model.yaml')
 
