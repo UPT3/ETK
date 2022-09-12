@@ -57,7 +57,7 @@ timelag:
 
 postfilter:
     question_path:      hed/intunist_jp.hed
-    checkpoint:         best_loss.pth
+    checkpoint:         latest.pth
     in_scaler_path:     null
     out_scaler_path:    null
 
