@@ -12,7 +12,7 @@ QS      "open_wide_vowel"                       {*^OPN_*}
 QS      "closed_narrow_vowel"                   {*^CLS_*}
 QS      "whisper_devoiced"                      {*^W_*}
 QS      "vivid_bright_resonance"                {*^V_*}
-QS      "dark_resonance"                        {*^DR_*}
+QS      "dark_resonance"                        {*^D_*}
 QS      "nasal_resonance"                       {*^N_*}
 #custom flags
 QS      "additional_1"                          {*^1_*}
