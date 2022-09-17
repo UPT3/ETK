@@ -7,5 +7,5 @@ pip install --upgrade pip &> /dev/null
 echo "installing nnsvs main branch"
 pip install -I https://github.com/nnsvs/nnsvs/tarball/master &> /dev/null
 echo "installing everything else (this will take a bit...)"
-pip install -I https://github.com/MattShannon/bandmat/archive/master.zip wheel numpy cython==0.29.27 optuna "hydra-core >= 1.1.0, < 1.2.0" "hydra_colorlog >= 1.1.0" hydra-optuna-sweeper mlflow utaupy tqdm pydub pyyaml natsort github-clone tbb gdown torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113 &> /dev/null
+pip install -I https://github.com/MattShannon/bandmat/archive/master.zip wheel numpy==1.22.4 cython==0.29.27 optuna "hydra-core >= 1.1.0, < 1.2.0" "hydra_colorlog >= 1.1.0" hydra-optuna-sweeper mlflow utaupy tqdm pydub pyyaml natsort github-clone tbb gdown torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113 &> /dev/null
 echo "Finished"
