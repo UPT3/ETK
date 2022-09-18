@@ -36,7 +36,7 @@ acoustic:
     # model_yaml:
     subphone_features:  coarse_coding
     relative_f0:        true
-#    post_filter:        true
+    post_filter:        true
     # 'post_ftiler' is legacy option for ENUNU prior to 5.1.
     post_filter_type:   merlin
     # change 'merlin' to 'nnsvs' if you trained a postfilter model
