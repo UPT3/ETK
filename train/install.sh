@@ -5,7 +5,7 @@ DEBIAN_FRONTEND=noninteractive apt-get install -qq p7zip-full p7zip-rar
 echo "updating pip"
 pip install --upgrade pip
 echo "installing PyTorch"
-pip install -I torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu113
+pip install -I torch torchvision torchaudio --extra-index-url https://download.pytorch.org/whl/cu116
 echo "installing nnsvs main branch"
 pip install -I https://github.com/nnsvs/nnsvs/tarball/master
 echo "installing everything else (this will take a bit...)"
