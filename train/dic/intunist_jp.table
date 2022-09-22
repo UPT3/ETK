@@ -440,6 +440,183 @@ sil sil
 お+ o vf
 オ+ O vf
 ん+ N vf
+あっ a cl
+いっ i cl
+いぇっ y e cl
+うっ u cl
+ヴっ v u cl
+ヴぁっ v a cl
+うぃっ w i cl
+ヴぃっ v i cl
+ヴぅっ v u cl
+うぇっ w e cl
+ヴぇっ v e cl
+うぉっ w o cl
+ヴぉっ v o cl
+えっ e cl
+おっ o cl
+かっ k a cl
+がっ g a cl
+きっ k i cl
+ぎっ g i cl
+きぇっ ky e cl
+ぎぇっ gy e cl
+きゃっ ky a cl
+ぎゃっ gy a cl
+きゅっ ky u cl
+ぎゅっ gy u cl
+きょっ ky o cl
+ぎょっ gy o cl
+くっ k u cl
+ぐっ g u cl
+くぁっ k w a cl
+ぐぁっ g w a cl
+くぃっ k w i cl
+ぐぃっ g w i cl
+くぅっ k w u cl
+ぐぅっ g w u cl
+くぇっ k w e cl
+ぐぇっ g w e cl
+くぉっ k w o cl
+ぐぉっ g w o cl
+ぐゎっ g w a cl
+けっ k e cl
+げっ g e cl
+こっ k o cl
+ごっ g o cl
+さっ s a cl
+ざっ z a cl
+しっ sh i cl
+じっ j i cl
+しぃっ s i cl
+しぇっ sh e cl
+じぇっ j e cl
+しゃっ sh a cl
+じゃっ j a cl
+しゅっ sh u cl
+じゅっ j u cl
+しょっ sh o cl
+じょっ j o cl
+すっ s u cl
+ずっ z u cl
+すぃっ s i cl
+ずぃっ z i cl
+せっ s e cl
+ぜっ z e cl
+そっ s o cl
+ぞっ z o cl
+たっ t a cl
+だっ d a cl
+ちっ ch i cl
+ちぇっ ch e cl
+ちゃっ ch a cl
+ぢゃっ j a cl
+ちゅっ ch u cl
+ちょっ ch o cl
+つっ ts u cl
+づっ z u cl
+つぁっ ts a cl
+つぃっ ts i cl
+づぃっ z i cl
+つぇっ ts e cl
+づぇっ z e cl
+つぉっ ts o cl
+づぉっ z o cl
+てっ t e cl
+でっ d e cl
+てぃっ t i cl
+でぃっ d i cl
+でぇっ dy e cl
+てゃっ ty a cl
+でゃっ dy a cl
+てゅっ ty u cl
+でゅっ dy u cl
+てょっ ty o cl
+でょっ dy o cl
+とっ t o cl
+どっ d o cl
+とぅっ t u cl
+どぅっ d u cl
+なっ n a cl
+にっ n i cl
+にぇっ ny e cl
+にゃっ ny a cl
+にゅっ ny u cl
+にょっ ny o cl
+ぬっ n u cl
+ねっ n e cl
+のっ n o cl
+はっ h a cl
+ばっ b a cl
+ぱっ p a cl
+ひっ h i cl
+びっ b i cl
+ぴっ p i cl
+ひぇっ hy e cl
+びぇっ by e cl
+ぴぇっ py e cl
+ひゃっ hy a cl
+びゃっ by a cl
+ぴゃっ py a cl
+ひゅっ hy u cl
+びゅっ by u cl
+ぴゅっ py u cl
+ひょっ hy o cl
+びょっ by o cl
+ぴょっ py o cl
+ふっ f u cl
+ぶっ b u cl
+ぷっ p u cl
+ふぁっ f a cl
+ふぃっ f i cl
+ふぇっ f e cl
+ふぉっ f o cl
+へっ h e cl
+べっ b e cl
+ぺっ p e cl
+ほっ h o cl
+ぼっ b o cl
+ぽっ p o cl
+まっ m a cl
+みっ m i cl
+みぇっ my e cl
+みゃっ my a cl
+みゅっ my u cl
+みょっ my o cl
+むっ m u cl
+めっ m e cl
+もっ m o cl
+やっ y a cl
+ゆっ y u cl
+よっ y o cl
+らっ r a cl
+りっ r i cl
+りぇっ ry e cl
+りゃっ ry a cl
+りゅっ ry u cl
+りょっ ry o cl
+るっ r u cl
+れっ r e cl
+ろっ r o cl
+わっ w a cl
+ゐっ i cl
+ゑっ e cl
+をっ o cl
+ふゃっ fy a cl
+ふゅっ fy u cl
+ふぃぇっ fy e cl
+ふょっ fy o cl
+ヴゃっ vy a cl
+ヴゅっ vy u cl
+ヴぃぇっ vy e cl
+ヴょっ vy o cl
+うぅっ w u cl
+てぇっ ty e cl
+てぃぇっ ty e cl
+ぢっ j i cl
+ぢゅっ j u cl
+ぢぇっ j e cl
+ぢょっ j o cl
 A A
 a a
 I I
