@@ -26,7 +26,7 @@ timelag_features:           defaults
 duration_features:          defaults
 acoustic_features:          static_deltadelta
 
-trajectory_smoothing: false
+trajectory_smoothing: true
 trajectory_smoothing_cutoff: 50
 trajectory_smoothing_cutoff_f0: 20
 
