@@ -1,4 +1,4 @@
-echo "Installing, this wil take about 5.5 minutes."
+echo "Installing, this will take about 5.5 minutes."
 apt-get update &> /dev/null
 echo "installing 7z"
 apt-get install -qq p7zip-full p7zip-rar &> /dev/null
