@@ -47,6 +47,7 @@ def copy_scaler(singer, release_dir):
     """
     makedirs(f'{release_dir}/dump/{singer}/norm', exist_ok=True)
     list_path_scaler = glob(f'dump/{singer}/norm/*_scaler.joblib')
+    list_path_scaler += glob(f'dump/{singer}/norm/*.npy')
 
     print('copying scaler')
     for path_scaler in tqdm(list_path_scaler):
@@ -64,8 +65,12 @@ def copy_model(singer, exp_name, release_dir):
     makedirs(f'{release_dir}/exp/{exp_name}/postfilter_mgc', exist_ok=True)
     makedirs(f'{release_dir}/exp/{exp_name}/postfilter_bap', exist_ok=True)
     makedirs(f'{release_dir}/exp/{exp_name}/postfilter_merged', exist_ok=True)
+    makedirs(f'{release_dir}/exp/{exp_name}/vocoder', exist_ok=True)
     list_path_model = glob(f'exp/{exp_name}/*/*.pth')
+    list_path_model += glob(f'exp/{exp_name}/*/*.pkl')
+    list_path_model += glob(f'exp/{exp_name}/*/*.npy')
     list_path_model += glob(f'exp/{exp_name}/*/model.yaml')
+    list_path_model += glob(f'exp/{exp_name}/*/config.yml')
 
     print('copying model')
     for path_model in tqdm(list_path_model):
