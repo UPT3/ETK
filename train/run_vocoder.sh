@@ -46,31 +46,8 @@ if [ ${stage} -le 1 ] && [ ${stop_stage} -ge 1 ]; then
     . $NNSVS_COMMON_ROOT/prepare_voc_features.sh
 fi
 
+
 if [ ${stage} -le 2 ] && [ ${stop_stage} -ge 2 ]; then
-    echo "stage 9: Compute statistics of vocoder's input features"
-
-    if [[ ${acoustic_features} == *"static_deltadelta_sinevib"* ]]; then
-        ext="--num_windows 3 --vibrato_mode sine"
-    elif [[ ${acoustic_features} == *"static_deltadelta_diffvib"* ]]; then
-        ext="--num_windows 3 --vibrato_mode diff"
-    elif [[ ${acoustic_features} == *"static_only_sinevib"* ]]; then
-        ext="--num_windows 1 --vibrato_mode sine"
-    elif [[ ${acoustic_features} == *"static_only_diffvib"* ]]; then
-        ext="--num_windows 1 --vibrato_mode diff"
-    elif [[ ${acoustic_features} == *"static_deltadelta"* ]]; then
-        ext="--num_windows 3 --vibrato_mode none"
-    elif [[ ${acoustic_features} == *"static_only"* ]]; then
-        ext="--num_windows 1 --vibrato_mode none"
-    else
-        ext=""
-    fi
-
-    xrun python $NNSVS_COMMON_ROOT/scaler_joblib2npy_voc.py \
-        $dump_norm_dir/out_acoustic_scaler.joblib $dump_norm_dir/ \
-        --sample_rate $sample_rate $ext
-fi
-
-if [ ${stage} -le 3 ] && [ ${stop_stage} -ge 3 ]; then
     echo "stage 10: Training vocoder using parallel_wavegan"
     if [ ! -z ${pretrained_vocoder_checkpoint} ]; then
         extra_args="--resume $pretrained_vocoder_checkpoint"
