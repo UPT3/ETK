@@ -1,4 +1,3 @@
-
 set -e
 set -u
 set -o pipefail
@@ -55,12 +54,12 @@ if [ ${stage} -le 2 ] && [ ${stop_stage} -ge 2 ]; then
         extra_args=""
     fi
     # NOTE: copy normalization stats to expdir for convenience
-    mkdir -p $expdir/$vocoder_model
-    cp -v $dump_norm_dir/in_vocoder*.npy $expdir/$vocoder_model
+    mkdir -p $expdir/vocoder
+    cp -v $dump_norm_dir/in_vocoder*.npy $expdir/vocoder
     xrun parallel-wavegan-train --config conf/parallel_wavegan/${vocoder_model}.yaml \
         --train-dumpdir $dump_norm_dir/$train_set/in_vocoder \
         --dev-dumpdir $dump_norm_dir/$dev_set/in_vocoder/ \
-        --outdir $expdir/$vocoder_model $extra_args
+        --outdir $expdir/vocoder $extra_args
 fi
 
 if [ ${stage} -le 4 ] && [ ${stop_stage} -ge 4 ]; then
