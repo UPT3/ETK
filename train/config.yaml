@@ -62,6 +62,6 @@ postfilter_train:           myconfig
 postfilter_data:            myconfig
 
 # vocoder stuff (stage 8)
-vocoder_model:
+vocoder_model: hn-sinc-nsf_sr48k_pwgD
 pretrained_vocoder_checkpoint:
 vocoder_eval_checkpoint:
