@@ -3,6 +3,8 @@ log_dir: tensorboard/exp/acoustic
 
 use_amp: true
 
+use_ddp: false
+
 max_train_steps: -1
 nepochs: 80
 checkpoint_epoch_interval: 22
