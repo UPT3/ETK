@@ -1,9 +1,9 @@
 out_dir: exp
 log_dir: tensorboard/exp/timelag
 
-use_ddp: false
-
 use_amp: true
+
+use_ddp: false
 
 max_train_steps: -1
 nepochs: 200
