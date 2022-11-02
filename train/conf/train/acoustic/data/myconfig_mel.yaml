@@ -35,14 +35,6 @@ max_time_frames: -1
 # NOTE: the following parameters must be carefully set
 # log-F0 and rest parameter indices in the input features
 # it depends on the hed file
-in_lf0_idx: null
-in_rest_idx: null
-# The log-F0 index in the output features
-out_lf0_idx: null
-
-# NOTE: the following parameters must be carefully set
-# log-F0 and rest parameter indices in the input features
-# it depends on the hed file
 in_lf0_idx: 51
 in_rest_idx: 0
 # The log-F0 index in the output features
