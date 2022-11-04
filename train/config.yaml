@@ -36,7 +36,7 @@ acoustic_model:             acoustic_current
 acoustic_train:             myconfig
 acoustic_data:              myconfig
 
-duration_model:             duration_mdnv2
+duration_model:             duration_vp_mdn
 duration_train:             myconfig
 duration_data:              myconfig
 
