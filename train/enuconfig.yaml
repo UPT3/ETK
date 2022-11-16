@@ -36,9 +36,9 @@ acoustic:
     # model_yaml:
     subphone_features:  coarse_coding
     relative_f0:        true
-#    post_filter:        true
-    # 'post_ftiler' is legacy option for ENUNU prior to 5.1.
     post_filter_type:   merlin
+#   set to 'gv' to use global-variance post-filter if desired.
+#   gv may perform poorly on low amounts of data.
 
 duration:
     question_path:      hed/intunist_jp.hed
@@ -56,7 +56,81 @@ timelag:
 
 postfilter:
     question_path:      hed/intunist_jp.hed
-    checkpoint:         latest.pth
+    checkpoint:         best_loss.pkl
     in_scaler_path:     null
     out_scaler_path:    null
 
+vocoder:
+    question_path:      hed/intunist_jp.hed
+    checkpoint:         best_loss.aaa
+    in_scaler_path:     null
+    out_scaler_path:    null
+    
+## ENUNU-extensions paths
+# Following aliases are available
+#  - '%e' (the directory enunu.py exists in)
+#  - '%v' (the directory voicebank and enuconfig.yaml exists in)
+#  - '%u' (the directory utau.exe exists in)
+# you can run dummy script with "%e/extensions/dummy.py"
+extensions:
+    # -----------------------------------------------------
+    # UST pre-editor,
+    # which runs before converting UST to full-score-lab
+    # If null, no additional processes.
+    ust_editor: null # default: null
+    # -----------------------------------------------------
+    # Alternative converter from UST to score-LAB file.
+    # If null, ENUNU's built-in system is used.
+    ust_converter: built-in # dafault: built-in
+    # -----------------------------------------------------
+    # Score-LAB editor,
+    # which runs after converting UST to score-LAB.
+    # If null, no additional processes.
+    score_editor: null # default: null
+    # -----------------------------------------------------
+    # Caluculator or predictor
+    # for timelag features from score-LAB.
+    # If null, ENUNU's built-in system is used.
+    timelag_calculator: built-in # default: built-in
+    # -----------------------------------------------------
+    # Timelag-LAB editor,
+    # which runs after predicting timelag features.
+    # If null, no additional processes.
+    timelag_editor: null # default: null
+    # -----------------------------------------------------
+    # Caluculator or predictor
+    # for duration features from score-LAB.
+    # If null, ENUNU's built-in system is used.
+    duration_calculator: built-in # default: built-in
+    # -----------------------------------------------------
+    # Duration-LAB editor,
+    # which runs after predicting duration features.
+    duration_editor: null # default: null
+    # -----------------------------------------------------
+    # Calculator for timing features
+    # from timelag-LAB and duration-LAB.
+    # If null, ENUNU's built-in system is used.
+    timing_calculator: built-in
+    # -----------------------------------------------------
+    # Timing-LAB editor.
+    # Timing-LAB file is the label
+    # that have been applied with timings and durations.
+    # If null, no additional processes.
+    timing_editor: null # default: null
+    # -----------------------------------------------------
+    # Caluculator or predictor for acoustic features.
+    # If null, ENUNU's built-in system is used.
+    acoustic_calculator: built-in # default: built-in
+    # -----------------------------------------------------
+    # Acoustic CSV file editor.
+    acoustic_editor: null # default: null
+    # -----------------------------------------------------
+    # WAV generater from acoustic CSV file,
+    # instead of built-in WORLD programs.
+    # If null, ENUNU's built-in system is used.
+    wav_synthesizer: built-in # default: built-in
+    # -----------------------------------------------------
+    # WAV file editor.
+    # If null, no additional processes.
+    wav_editor: null # default: null
+    # -----------------------------------------------------
