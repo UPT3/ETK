@@ -60,8 +60,8 @@ postfilter:
     in_scaler_path:     null
     out_scaler_path:    null
 
+#this does nothing in current enunu.
 vocoder:
-    question_path:      hed/intunist_jp.hed
     checkpoint:         best_loss.aaa
     in_scaler_path:     null
     out_scaler_path:    null
