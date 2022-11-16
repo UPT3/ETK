@@ -23,9 +23,7 @@ vibrato_scale: 1.0
 # if true, time-lag and duration models will not be used.
 ground_truth_duration:  false
 
-# If not empty, try to search statisics in the directory
 stats_dir:              dump/Unnamed/norm
-# If not empty, try to search models in the directory
 model_dir:              exp/Unnamed
 
 acoustic:
@@ -33,7 +31,6 @@ acoustic:
     checkpoint:         best_loss.pth
     in_scaler_path:     null
     out_scaler_path:    null
-    # model_yaml:
     subphone_features:  coarse_coding
     relative_f0:        true
     post_filter_type:   merlin
