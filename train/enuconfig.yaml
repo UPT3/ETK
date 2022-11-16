@@ -65,7 +65,9 @@ vocoder:
     checkpoint:         best_loss.aaa
     in_scaler_path:     null
     out_scaler_path:    null
-    
+
+#All of the following can be ignored. They are only here to prevent a bug in OpenUTAU.
+
 ## ENUNU-extensions paths
 # Following aliases are available
 #  - '%e' (the directory enunu.py exists in)
