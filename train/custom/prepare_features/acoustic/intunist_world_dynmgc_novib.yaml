@@ -77,7 +77,7 @@ correct_vuv: false
 correct_f0: false
 
 # NOTE: the following parameters are only used for computing mel-spectrogram
-# For 24kHz sampling rate
+# For 48kHz sampling rate
 fft_size: 1024
 hop_size: 240
 win_length: 480
