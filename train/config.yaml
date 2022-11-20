@@ -24,11 +24,10 @@ stage0:
 # stage 1
 timelag_features:           defaults
 duration_features:          defaults
-acoustic_features:          static_deltadelta
+acoustic_features:          intunist_world_dynmgc_novib
 
-trajectory_smoothing: true
+trajectory_smoothing: false
 trajectory_smoothing_cutoff: 50
-trajectory_smoothing_cutoff_f0: 20
 
 # stage 4
 # symlink during training in notebook.
@@ -62,6 +61,6 @@ postfilter_train:           myconfig
 postfilter_data:            myconfig
 
 # vocoder stuff (stage 8)
-vocoder_model: hn-sinc-nsf_sr48k_pwgD
+vocoder_model:
 pretrained_vocoder_checkpoint:
 vocoder_eval_checkpoint:
