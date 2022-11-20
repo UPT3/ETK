@@ -89,24 +89,24 @@ if [ ${stage} -le 4 ] && [ ${stop_stage} -ge 4 ]; then
     . $NNSVS_COMMON_ROOT/train_acoustic.sh || exit 1;
 fi
 
-if [ ${stage} -le 5 ] && [ ${stop_stage} -ge 5 ]; then
-    echo ""
-    echo "###"
-    echo "stage 5: Feature generation"
-    echo "###"
-    echo ""
-    . $NNSVS_COMMON_ROOT/generate.sh || exit 1;
-fi
+#if [ ${stage} -le 5 ] && [ ${stop_stage} -ge 5 ]; then
+#    echo ""
+#    echo "###"
+#    echo "stage 5: Feature generation"
+#    echo "###"
+#    echo ""
+#    . $NNSVS_COMMON_ROOT/generate.sh || exit 1;
+#fi
 
 # Skipping synthesis step.
 
 # Postfilter stuff
-if [ ${stage} -le 6 ] && [ ${stop_stage} -ge 6 ]; then
-    echo "stage 6: Prepare input/output features for post-filter"
+if [ ${stage} -le 5 ] && [ ${stop_stage} -ge 5 ]; then
+    echo "stage 6: Prepare input/output features for gv post-filter"
     . $NNSVS_COMMON_ROOT/prepare_postfilter.sh
 fi
 
-if [ ${stage} -le 7 ] && [ ${stop_stage} -ge 7 ]; then
+if [ ${stage} -le 6 ] && [ ${stop_stage} -ge 6 ]; then
     echo "stage 7: Training post-filter"
     . $NNSVS_COMMON_ROOT/train_postfilter.sh
 fi
