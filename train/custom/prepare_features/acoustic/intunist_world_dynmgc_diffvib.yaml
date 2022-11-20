@@ -21,6 +21,8 @@ f0_ceil: null
 # (1) harvest (2) dio (3) parselmouth
 f0_extractor: harvest
 d4c_threshold: 0.25
+#nnsvs 0.0.3 setting
+use_harvest: true
 
 frame_period: 5 # ms
 mgc_order: 59
