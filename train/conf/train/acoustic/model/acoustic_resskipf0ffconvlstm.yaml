@@ -8,7 +8,7 @@ stream_weights:
 netG:
   _target_: nnsvs.acoustic_models.ResSkipF0FFConvLSTM
   in_dim: 363
-  out_dim: 199
+  out_dim: 187
   ff_hidden_dim: 2048
   conv_hidden_dim: 1024
   lstm_hidden_dim: 256
