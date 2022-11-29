@@ -59,7 +59,7 @@ if [ ${stage} -le 1 ] && [ ${stop_stage} -ge 1 ]; then
     echo "###"
     echo ""
     rm -rf $dumpdir
-    . $NNSVS_COMMON_ROOT/feature_generation.sh || exit 1;
+    . $NNSVS_COMMON_ROOT/new/feature_generation.sh || exit 1;
 fi
 
 if [ ${stage} -le 2 ] && [ ${stop_stage} -ge 2 ]; then
@@ -86,7 +86,7 @@ if [ ${stage} -le 4 ] && [ ${stop_stage} -ge 4 ]; then
     echo "stage 4: Training acoustic model"
     echo "###"
     echo ""
-    . $NNSVS_COMMON_ROOT/train_acoustic_acoustic.sh || exit 1;
+    . $NNSVS_COMMON_ROOT/new/train_acoustic.sh || exit 1;
 fi
 
 if [ ${stage} -le 5 ] && [ ${stop_stage} -ge 5 ]; then
