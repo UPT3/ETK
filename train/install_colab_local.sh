@@ -1,7 +1,7 @@
 echo "Installing, this will take about 5.5 minutes."
-sudo apt-get update
-echo "installing 7z"
-sudo apt-get install -qq p7zip-full p7zip-rar
+#sudo apt-get update
+#echo "installing 7z"
+#sudo apt-get install -qq p7zip-full p7zip-rar
 #echo "updating pip"
 pip install --upgrade pip
 echo "installing PyTorch"
