@@ -1,32 +1,21 @@
-#Customized JP HED for NNSVS. Based on HED from r9y9/NNSVS repo.
-#in_dim: 359(duration/timelag), 363(acoustic)
-#in_rest_idx: 14
-#in_lfx0_idx: 314
-
-#tone flags
-QS      "falsetto"                              {*^F_*}
-QS      "head_voice"                            {*^H_*}
-QS      "soft"                                  {*^SF_*}
-QS      "strong"                                {*^ST_*}
-QS      "open_wide_vowel"                       {*^OPN_*}
-QS      "closed_narrow_vowel"                   {*^CLS_*}
-QS      "whisper_devoiced"                      {*^W_*}
-QS      "vivid_bright_resonance"                {*^V_*}
-QS      "dark_resonance"                        {*^D_*}
-QS      "nasal_resonance"                       {*^N_*}
-#custom flags
-QS      "additional_1"                          {*^1_*}
-QS      "additional_2"                          {*^2_*}
-QS      "additional_3"                          {*^3_*}
+#Customized JP HED for NNSVS. Created by Intunist
+#dev HED for NNSVS 0.1.0.
+#do not use
+#in_dim: 360(timing), 364(acoustic)
+#in_rest_idx: 0 // in_lfx0_idx: 314
+#in_ph_start_idx: 147 // in_ph_end_idx: 191
 
 #Phonetic definitions
 
-QS      "L-Phone_Muon"                          {*^sil-*,*^pau-*}
-QS      "C-Phone_Muon"                          {*-sil+*,*-pau+*}
-QS      "R-Phone_Muon"                          {*+sil=*,*+pau=*}
+QS      "C-Phone_Muon"                          {*-pau+*}
+QS      "L-Phone_Muon"                          {*^pau-*}
+QS      "R-Phone_Muon"                          {*+pau=*}
 
-QS      "L-VUV_Voiced"                          {*^a-*,*^i-*,*^u-*,*^e-*,*^o-*,*^b-*,*^by-*,*^m-*,*^my-*,*^w-*,*^n-*,*^ny-*,*^N-*,*^r-*,*^ry-*,*^y-*}
-QS      "L-VUV_Unvoiced"                        {*^A-*,*^I-*,*^U-*,*^E-*,*^O-*,*^f-*,*^p-*,*^py-*,*^s-*,*^sh-*,*^ts-*,*^ch-*,*^t-*,*^ty-*,*^k-*,*^ky-*.*^hy-*}
+# QS      "L-VUV_Voiced"                          {*^a-*,*^i-*,*^u-*,*^e-*,*^o-*,*^b-*,*^by-*,*^m-*,*^my-*,*^w-*,*^n-*,*^ny-*,*^N-*,*^r-*,*^ry-*,*^y-*}
+# QS      "L-VUV_Unvoiced"                        {*^A-*,*^I-*,*^U-*,*^E-*,*^O-*,*^f-*,*^p-*,*^py-*,*^s-*,*^sh-*,*^ts-*,*^ch-*,*^t-*,*^ty-*,*^k-*,*^ky-*.*^hy-*}
+
+QS      "L-VUV_Voiced"                          {}
+QS      "L-VUV_Unvoiced"                        {*^pau-*}
 
 QS      "L-Phone_Boin"                          {*^a-*,*^i-*,*^u-*,*^e-*,*^o-*,*^A-*,*^I-*,*^U-*,*^E-*,*^O-*}
 QS      "L-Phone_Yuusei_Boin"                   {*^a-*,*^i-*,*^u-*,*^e-*,*^o-*}
@@ -126,8 +115,11 @@ QS      "L-Phone_w"                             {*^w-*}
 QS      "L-Phone_y"                             {*^y-*}
 QS      "L-Phone_z"                             {*^z-*}
 
-QS      "C-VUV_Voiced"                          {*-a+*,*-i+*,*-u+*,*-e+*,*-o+*,*-v+*,*-b+*,*-by+*,*-m+*,*-my+*,*-w+*,*-z+*,*-j+*,*-d+*,*-dy+*,*-n+*,*-ny+*,*-N+*,*-r+*,*-ry+*,*-g+*,*-gy+*,*-y+*}
-QS      "C-VUV_Unvoiced"                        {*-A+*,*-I+*,*-U+*,*-E+*,*-O+*,*-f+*,*-p+*,*-py+*,*-s+*,*-sh+*,*-ts+*,*-ch+*,*-t+*,*-ty+*,*-k+*,*-ky+*,*-h+*,*-hy+*}
+# QS      "C-VUV_Voiced"                          {*-a+*,*-i+*,*-u+*,*-e+*,*-o+*,*-v+*,*-b+*,*-by+*,*-m+*,*-my+*,*-w+*,*-z+*,*-j+*,*-d+*,*-dy+*,*-n+*,*-ny+*,*-N+*,*-r+*,*-ry+*,*-g+*,*-gy+*,*-y+*}
+# QS      "C-VUV_Unvoiced"                        {*-A+*,*-I+*,*-U+*,*-E+*,*-O+*,*-f+*,*-p+*,*-py+*,*-s+*,*-sh+*,*-ts+*,*-ch+*,*-t+*,*-ty+*,*-k+*,*-ky+*,*-h+*,*-hy+*}
+
+QS      "C-VUV_Voiced"                          {}
+QS      "C-VUV_Unvoiced"                        {*-pau+*}
 
 QS      "C-Phone_Boin"                          {*-a+*,*-i+*,*-u+*,*-e+*,*-o+*,*-A+*,*-I+*,*-U+*,*-E+*,*-O+*}
 QS      "C-Phone_Yuusei_Boin"                   {*-a+*,*-i+*,*-u+*,*-e+*,*-o+*}
@@ -227,8 +219,11 @@ QS      "C-Phone_w"                             {*-w+*}
 QS      "C-Phone_y"                             {*-y+*}
 QS      "C-Phone_z"                             {*-z+*}
 
-QS      "R-VUV_Voiced"                          {*+a=*,*+i=*,*+u=*,*+e=*,*+o=*,*+v=*,*+b=*,*+by=*,*+m=*,*+my=*,*+w=*,*+z=*,*+j=*,*+d=*,*+dy=*,*+n=*,*+ny=*,*+N=*,*+r=*,*+ry=*,*+g=*,*+gy=*,*+y=*}
-QS      "R-VUV_Unvoiced"                        {*+A=*,*+I=*,*+U=*,*+E=*,*+O=*,*+f=*,*+p=*,*+py=*,*+s=*,*+sh=*,*+ts=*,*+ch=*,*+t=*,*+ty=*,*+k=*,*+ky=*,*+h=*,*+hy=*}
+# QS      "R-VUV_Voiced"                          {*+a=*,*+i=*,*+u=*,*+e=*,*+o=*,*+v=*,*+b=*,*+by=*,*+m=*,*+my=*,*+w=*,*+z=*,*+j=*,*+d=*,*+dy=*,*+n=*,*+ny=*,*+N=*,*+r=*,*+ry=*,*+g=*,*+gy=*,*+y=*}
+# QS      "R-VUV_Unvoiced"                        {*+A=*,*+I=*,*+U=*,*+E=*,*+O=*,*+f=*,*+p=*,*+py=*,*+s=*,*+sh=*,*+ts=*,*+ch=*,*+t=*,*+ty=*,*+k=*,*+ky=*,*+h=*,*+hy=*}
+
+QS      "R-VUV_Voiced"                          {}
+QS      "R-VUV_Unvoiced"                        {*+pau=*}
 
 QS      "R-Phone_Boin"                          {*+a=*,*+i=*,*+u=*,*+e=*,*+o=*,*+A=*,*+I=*,*+U=*,*+E=*,*+O=*}
 QS      "R-Phone_Yuusei_Boin"                   {*+a=*,*+i=*,*+u=*,*+e=*,*+o=*}
@@ -348,6 +343,22 @@ QS      "L-Phone_trash"                         {*^trash-*}
 QS      "C-Phone_trash"                         {*-trash+*}
 QS      "R-Phone_trash"                         {*+trash=*}
 
+#tone flags
+QS      "falsetto"                              {*^F_*}
+QS      "head_voice"                            {*^H_*}
+QS      "soft"                                  {*^SF_*}
+QS      "strong"                                {*^ST_*}
+QS      "open_wide_vowel"                       {*^OPN_*}
+QS      "closed_narrow_vowel"                   {*^CLS_*}
+QS      "whisper_devoiced"                      {*^W_*}
+QS      "vivid_bright_resonance"                {*^V_*}
+QS      "dark_resonance"                        {*^D_*}
+QS      "nasal_resonance"                       {*^N_*}
+#custom flags
+QS      "additional_1"                          {*^1_*}
+QS      "additional_2"                          {*^2_*}
+QS      "additional_3"                          {*^3_*}
+
 #The following was copied from the NNSVS hed
 
 CQS     "d1"                                    {/D:(\NOTE)!}
@@ -406,6 +417,7 @@ CQS     "e22_position_by_96th_note"             {$(\d+)&}
 CQS     "e23_position_by_96th_note"             {&(\d+)%}
 CQS     "e24_position_by_percent"               {%(\d+)[}
 CQS     "e25_position_by_percent"               {[(\d+)|}
+CQS     "e26"                                   {|(\d+)]}
 
 CQS     "e57"                                   {~([pm]\d+)+}
 CQS     "e58"                                   {+([pm]\d+)!}
