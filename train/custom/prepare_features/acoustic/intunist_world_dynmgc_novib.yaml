@@ -40,7 +40,7 @@ num_windows: 3
 
 # Stream-wise flags to enable/disable dynamic features
 # (mgc, lf0, vuv, bap)
-dynamic_features_flags: [True, False, False, False]
+dynamic_features_flags: [True, True, False, False]
 
 # Use relative f0 modeling.
 relative_f0: true
