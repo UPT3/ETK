@@ -1,14 +1,14 @@
 # (mgc, lf0, vuv, bap)
-stream_sizes: [180, 1, 1, 5]
-has_dynamic_features: [true, false, false, false]
+stream_sizes: [180, 3, 1, 5]
+has_dynamic_features: [true, true, false, false]
 num_windows: 3
 # If None, automatically set based on stream sizes
 stream_weights:
 
 netG:
   _target_: nnsvs.acoustic_models.ResF0NonAttentiveTacotron
-  in_dim: 363
-  out_dim: 187
+  in_dim: 364
+  out_dim: 189
   # encoder
   encoder_lstm_hidden_dim: 512
   encoder_num_lstm_layers: 3
