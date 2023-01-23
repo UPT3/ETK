@@ -1,0 +1,954 @@
+#Intunist's Custom Japanese dictionary.
+#Adds romaji support as well as making vocal fry and glottal stop phonemes more accessible.
+息 br
+br br
+pau pau
+R pau
+sil sil
+ア A
+あ a
+イ I
+い i
+いぇ y e
+ウ U
+う u
+ヴ v u
+ヴァ v A
+ヴぁ v a
+ウィ w I
+うぃ w i
+ヴぃ v i
+ヴゥ v U
+ヴぅ v u
+ウェ w E
+うぇ w e
+ヴェ v E
+ヴぇ v e
+ウォ w O
+うぉ w o
+ヴォ v O
+ヴぉ v o
+エ E
+え e
+オ O
+お o
+カ k A
+か k a
+ガ g A
+が g a
+キ k I
+き k i
+ギ g I
+ぎ g i
+キェ ky E
+きぇ ky e
+ギェ gy E
+ぎぇ gy e
+キャ ky A
+きゃ ky a
+ギャ gy A
+ぎゃ gy a
+キュ ky U
+きゅ ky u
+ギュ gy U
+ぎゅ gy u
+キョ ky O
+きょ ky o
+ギョ gy O
+ぎょ gy o
+ク k U
+く k u
+グ g U
+ぐ g u
+クァ k w A
+くぁ k w a
+グァ g w A
+ぐぁ g w a
+クィ k w I
+くぃ k w i
+グィ g w I
+ぐぃ g w i
+クゥ k w U
+くぅ k w u
+グゥ g w U
+ぐぅ g w u
+クェ k w E
+くぇ k w e
+グェ g w E
+ぐぇ g w e
+クォ k w O
+くぉ k w o
+グォ g w O
+ぐぉ g w o
+グヮ g w A
+ぐゎ g w a
+ケ k E
+け k e
+ゲ g E
+げ g e
+コ k O
+こ k o
+ゴ g O
+ご g o
+サ s A
+さ s a
+ザ z A
+ざ z a
+シ sh I
+し sh i
+ジ j I
+じ j i
+シィ s I
+しぃ s i
+シェ sh E
+しぇ sh e
+ジェ j E
+じぇ j e
+シャ sh A
+しゃ sh a
+ジャ j A
+じゃ j a
+シュ sh U
+しゅ sh u
+ジュ j U
+じゅ j u
+ショ sh O
+しょ sh o
+ジョ j O
+じょ j o
+ス s U
+す s u
+ズ z U
+ず z u
+スィ s I
+すぃ s i
+ズィ z I
+ずぃ z i
+セ s E
+せ s e
+ゼ z E
+ぜ z e
+ソ s O
+そ s o
+ゾ z O
+ぞ z o
+タ t A
+た t a
+ダ d A
+だ d a
+チ ch I
+ち ch i
+チェ ch E
+ちぇ ch e
+チャ ch A
+ちゃ ch a
+ヂャ j A
+ぢゃ j a
+チュ ch U
+ちゅ ch u
+チョ ch O
+ちょ ch o
+ッ cl
+っ cl
+ツ ts U
+つ ts u
+ヅ z U
+づ z u
+ツァ ts A
+つぁ ts a
+ヅァ z A
+ツィ ts I
+つぃ ts i
+ヅィ z I
+づぃ z i
+ツェ ts E
+つぇ ts e
+ヅェ z E
+づぇ z e
+ツォ ts O
+つぉ ts o
+ヅォ z O
+づぉ z o
+テ t E
+て t e
+デ d E
+で d e
+ティ t I
+てぃ t i
+ディ d I
+でぃ d i
+でぇ dy e
+テャ ty A
+てゃ ty a
+デャ dy A
+でゃ dy a
+テュ ty U
+てゅ ty u
+デュ dy U
+でゅ dy u
+テョ ty O
+てょ ty o
+デョ dy O
+でょ dy o
+ト t O
+と t o
+ド d O
+ど d o
+トゥ t U
+とぅ t u
+ドゥ d U
+どぅ d u
+ナ n A
+な n a
+ニ n I
+に n i
+ニェ ny E
+にぇ ny e
+ニャ ny A
+にゃ ny a
+ニュ ny U
+にゅ ny u
+ニョ ny O
+にょ ny o
+ヌ n U
+ぬ n u
+ネ n E
+ね n e
+ノ n O
+の n o
+ハ h A
+は h a
+バ b A
+ば b a
+パ p A
+ぱ p a
+ヒ h I
+ひ h i
+ビ b I
+び b i
+ピ p I
+ぴ p i
+ヒェ hy E
+ひぇ hy e
+ビェ by E
+びぇ by e
+ピェ py E
+ぴぇ py e
+ヒャ hy A
+ひゃ hy a
+ビャ by A
+びゃ by a
+ピャ py A
+ぴゃ py a
+ヒュ hy U
+ひゅ hy u
+ビュ by U
+びゅ by u
+ピュ py U
+ぴゅ py u
+ヒョ hy O
+ひょ hy o
+ビョ by O
+びょ by o
+ピョ py O
+ぴょ py o
+フ f U
+ふ f u
+ブ b U
+ぶ b u
+プ p U
+ぷ p u
+ファ f A
+ふぁ f a
+フィ f I
+ふぃ f i
+フェ f E
+ふぇ f e
+フォ f O
+ふぉ f o
+ヘ h E
+へ h e
+べ b e
+ペ p E
+ぺ p e
+ホ h O
+ほ h o
+ボ B O
+ぼ b o
+ポ p O
+ぽ p o
+マ m A
+ま m a
+ミ m I
+み m i
+ミェ my E
+みぇ my e
+ミャ my A
+みゃ my a
+ミュ my U
+みゅ my u
+ミョ my O
+みょ my o
+ム m U
+む m u
+メ m E
+め m e
+モ m O
+も m o
+ヤ y A
+や y a
+ユ y U
+ゆ y u
+ヨ y O
+よ y o
+ラ r A
+ら r a
+リ r I
+り r i
+りぇ ry e
+りゃ ry a
+りゅ ry u
+りょ ry o
+ル r U
+る r u
+レ r E
+れ r e
+ロ r O
+ろ r o
+ワ w A
+わ w a
+ヰ I
+ゐ i
+ヱ E
+ゑ e
+ヲ O
+を o
+ン N
+ん N
+フャ fy A
+ふゃ fy a
+フュ fy U
+ふゅ fy u
+フィェ fy E
+ふぃぇ fy e
+フョ fy O
+ふょ fy o
+ヴゃ vy a
+ヴゅ vy u
+ヴュ vy U
+ヴぃぇ vy e
+ヴょ vy o
+うぅ w u
+ウゥ w U
+てぇ ty e
+テェ ty E
+てぃぇ ty e
+ティェ ty E
+ぢ j i
+ヂ j I
+ぢゅ j u
+ヂュ j U
+ぢぇ j e
+ヂェ j E
+ぢょ j o
+ヂョ j O
+・あ GlottalStop a
+・ア GlottalStop A
+・い GlottalStop i
+・イ GlottalStop I
+・う GlottalStop u
+・ウ GlottalStop U
+・え GlottalStop e
+・エ GlottalStop E
+・お GlottalStop o
+・オ GlottalStop O
+・ん GlottalStop N
+-あ GlottalStop a
+-ア GlottalStop A
+-い GlottalStop i
+-イ GlottalStop I
+-う GlottalStop u
+-ウ GlottalStop U
+-え GlottalStop e
+-エ GlottalStop E
+-お GlottalStop o
+-オ GlottalStop O
+-ん GlottalStop N
+’あ Edge a
+’ア Edge A
+’い Edge i
+’イ Edge I
+’う Edge u
+’ウ Edge U
+’え Edge e
+’エ Edge E
+’お Edge o
+’オ Edge O
+’ん Edge N
+あ’ Edge a
+ア’ Edge A
+い’ Edge i
+イ’ Edge I
+う’ Edge u
+ウ’ Edge U
+え’ Edge e
+エ’ Edge E
+お’ Edge o
+オ’ Edge O
+ん’ Edge N
+'あ Edge a
+'ア Edge A
+'い Edge i
+'イ Edge I
+'う Edge u
+'ウ Edge U
+'え Edge e
+'エ Edge E
+'お Edge o
+'オ Edge O
+'ん Edge N
+あ' Edge a
+ア' Edge A
+い' Edge i
+イ' Edge I
+う' Edge u
+ウ' Edge U
+え' Edge e
+エ' Edge E
+お' Edge o
+オ' Edge O
+ん' Edge N
++あ Edge a
++ア Edge A
++い Edge i
++イ Edge I
++う Edge u
++ウ Edge U
++え Edge e
++エ Edge E
++お Edge o
++オ Edge O
++ん Edge N
+あ+ a Edge
+ア+ A Edge
+い+ i Edge
+イ+ I Edge
+う+ u Edge
+ウ+ U Edge
+え+ e Edge
+エ+ E Edge
+お+ o Edge
+オ+ O Edge
+ん+ N Edge
+あっ a cl
+いっ i cl
+いぇっ y e cl
+うっ u cl
+ヴっ v u cl
+ヴぁっ v a cl
+うぃっ w i cl
+ヴぃっ v i cl
+ヴぅっ v u cl
+うぇっ w e cl
+ヴぇっ v e cl
+うぉっ w o cl
+ヴぉっ v o cl
+えっ e cl
+おっ o cl
+かっ k a cl
+がっ g a cl
+きっ k i cl
+ぎっ g i cl
+きぇっ ky e cl
+ぎぇっ gy e cl
+きゃっ ky a cl
+ぎゃっ gy a cl
+きゅっ ky u cl
+ぎゅっ gy u cl
+きょっ ky o cl
+ぎょっ gy o cl
+くっ k u cl
+ぐっ g u cl
+くぁっ k w a cl
+ぐぁっ g w a cl
+くぃっ k w i cl
+ぐぃっ g w i cl
+くぅっ k w u cl
+ぐぅっ g w u cl
+くぇっ k w e cl
+ぐぇっ g w e cl
+くぉっ k w o cl
+ぐぉっ g w o cl
+ぐゎっ g w a cl
+けっ k e cl
+げっ g e cl
+こっ k o cl
+ごっ g o cl
+さっ s a cl
+ざっ z a cl
+しっ sh i cl
+じっ j i cl
+しぃっ s i cl
+しぇっ sh e cl
+じぇっ j e cl
+しゃっ sh a cl
+じゃっ j a cl
+しゅっ sh u cl
+じゅっ j u cl
+しょっ sh o cl
+じょっ j o cl
+すっ s u cl
+ずっ z u cl
+すぃっ s i cl
+ずぃっ z i cl
+せっ s e cl
+ぜっ z e cl
+そっ s o cl
+ぞっ z o cl
+たっ t a cl
+だっ d a cl
+ちっ ch i cl
+ちぇっ ch e cl
+ちゃっ ch a cl
+ぢゃっ j a cl
+ちゅっ ch u cl
+ちょっ ch o cl
+つっ ts u cl
+づっ z u cl
+つぁっ ts a cl
+つぃっ ts i cl
+づぃっ z i cl
+つぇっ ts e cl
+づぇっ z e cl
+つぉっ ts o cl
+づぉっ z o cl
+てっ t e cl
+でっ d e cl
+てぃっ t i cl
+でぃっ d i cl
+でぇっ dy e cl
+てゃっ ty a cl
+でゃっ dy a cl
+てゅっ ty u cl
+でゅっ dy u cl
+てょっ ty o cl
+でょっ dy o cl
+とっ t o cl
+どっ d o cl
+とぅっ t u cl
+どぅっ d u cl
+なっ n a cl
+にっ n i cl
+にぇっ ny e cl
+にゃっ ny a cl
+にゅっ ny u cl
+にょっ ny o cl
+ぬっ n u cl
+ねっ n e cl
+のっ n o cl
+はっ h a cl
+ばっ b a cl
+ぱっ p a cl
+ひっ h i cl
+びっ b i cl
+ぴっ p i cl
+ひぇっ hy e cl
+びぇっ by e cl
+ぴぇっ py e cl
+ひゃっ hy a cl
+びゃっ by a cl
+ぴゃっ py a cl
+ひゅっ hy u cl
+びゅっ by u cl
+ぴゅっ py u cl
+ひょっ hy o cl
+びょっ by o cl
+ぴょっ py o cl
+ふっ f u cl
+ぶっ b u cl
+ぷっ p u cl
+ふぁっ f a cl
+ふぃっ f i cl
+ふぇっ f e cl
+ふぉっ f o cl
+へっ h e cl
+べっ b e cl
+ぺっ p e cl
+ほっ h o cl
+ぼっ b o cl
+ぽっ p o cl
+まっ m a cl
+みっ m i cl
+みぇっ my e cl
+みゃっ my a cl
+みゅっ my u cl
+みょっ my o cl
+むっ m u cl
+めっ m e cl
+もっ m o cl
+やっ y a cl
+ゆっ y u cl
+よっ y o cl
+らっ r a cl
+りっ r i cl
+りぇっ ry e cl
+りゃっ ry a cl
+りゅっ ry u cl
+りょっ ry o cl
+るっ r u cl
+れっ r e cl
+ろっ r o cl
+わっ w a cl
+ゐっ i cl
+ゑっ e cl
+をっ o cl
+ふゃっ fy a cl
+ふゅっ fy u cl
+ふぃぇっ fy e cl
+ふょっ fy o cl
+ヴゃっ vy a cl
+ヴゅっ vy u cl
+ヴぃぇっ vy e cl
+ヴょっ vy o cl
+うぅっ w u cl
+てぇっ ty e cl
+てぃぇっ ty e cl
+ぢっ j i cl
+ぢゅっ j u cl
+ぢぇっ j e cl
+ぢょっ j o cl
+A A
+a a
+I I
+i i
+ye y e
+U U
+u u
+vu v u
+vA v A
+va v a
+wI w I
+wi w i
+vi v i
+vU v U
+wE w E
+we w e
+vE v E
+ve v e
+wO w O
+wo w o
+vO v O
+vo v o
+E E
+e e
+O O
+o o
+kA k A
+ka k a
+gA g A
+ga g a
+kI k I
+ki k i
+gI g I
+gi g i
+kyE ky E
+kye ky e
+gyE gy E
+gye gy e
+kyA ky A
+kya ky a
+gyA gy A
+gya gy a
+kyU ky U
+kyu ky u
+gyU gy U
+gyu gy u
+kyO ky O
+kyo ky o
+gyO gy O
+gyo gy o
+kU k U
+ku k u
+gU g U
+gu g u
+kwA k w A
+kwa k w a
+gwA g w A
+gwa g w a
+kwI k w I
+kwi k w i
+gwI g w I
+gwi g w i
+kwU k w U
+kwu k w u
+gwU g w U
+gwu g w u
+kwE k w E
+kwe k w e
+gwE g w E
+gwe g w e
+kwO k w O
+kwo k w o
+gwO g w O
+gwo g w o
+kE k E
+ke k e
+gE g E
+ge g e
+kO k O
+ko k o
+gO g O
+go g o
+sA s A
+sa s a
+zA z A
+za z a
+shI sh I
+shi sh i
+jI j I
+ji j i
+sI s I
+si s i
+shE sh E
+she sh e
+jE j E
+je j e
+shA sh A
+sha sh a
+jA j A
+ja j a
+shU sh U
+shu sh u
+jU j U
+ju j u
+shO sh O
+sho sh o
+jO j O
+jo j o
+sU s U
+su s u
+zU z U
+zu z u
+zI z I
+zi z i
+sE s E
+se s e
+zE z E
+ze z e
+sO s O
+so s o
+zO z O
+zo z o
+tA t A
+ta t a
+dA d A
+da d a
+chI ch I
+chi ch i
+chE ch E
+che ch e
+chA ch A
+cha ch a
+chU ch U
+chu ch u
+chO ch O
+cho ch o
+cl cl
+tsU ts U
+tsu ts u
+tsA ts A
+tsa ts a
+tsI ts I
+tsi ts i
+tsE ts E
+tse ts e
+tsO ts O
+tso ts o
+tE t E
+te t e
+dE d E
+de d e
+tI t I
+ti t i
+dI d I
+di d i
+dye dy e
+tyA ty A
+tya ty a
+dyA dy A
+dya dy a
+tyU ty U
+tyu ty u
+dyU dy U
+dyu dy u
+tyO ty O
+tyo ty o
+dyO dy O
+dyo dy o
+tO t O
+to t o
+dO d O
+do d o
+tU t U
+tu t u
+dU d U
+du d u
+nA n A
+na n a
+nI n I
+ni n i
+nyE ny E
+nye ny e
+nyA ny A
+nya ny a
+nyU ny U
+nyu ny u
+nyO ny O
+nyo ny o
+nU n U
+nu n u
+nE n E
+ne n e
+nO n O
+no n o
+hA h A
+ha h a
+bA b A
+ba b a
+pA p A
+pa p a
+hI h I
+hi h i
+BI B I
+bi b i
+pI p I
+pi p i
+hyE hy E
+hye hy e
+byE by E
+bye by e
+pyE py E
+pye py e
+hyA hy A
+hya hy a
+byA by A
+bya by a
+pyA py A
+pya py a
+hyU hy U
+hyu hy u
+byU by U
+byu by u
+pyU py U
+pyu py u
+hyO hy O
+hyo hy o
+byO by O
+byo by o
+pyO py O
+pyo py o
+fU f U
+fu f u
+bU b U
+bu b u
+pU p U
+pu p u
+fA f A
+fa f a
+fI f I
+fi f i
+fE f E
+fe f e
+fO f O
+fo f o
+hE h E
+he h e
+be b e
+pE p E
+pe p e
+hO h O
+ho h o
+BO B O
+bo b o
+pO p O
+po p o
+mA m A
+ma m a
+mI m I
+mi m i
+myE my E
+mye my e
+myA my A
+mya my a
+myU my U
+myu my u
+myO my O
+myo my o
+mU m U
+mu m u
+mE m E
+me m e
+mO m O
+mo m o
+yA y A
+ya y a
+yU y U
+yu y u
+yO y O
+yo y o
+rA r A
+ra r a
+rI r I
+ri r i
+rye ry e
+rya ry a
+ryu ry u
+ryo ry o
+rU r U
+ru r u
+rE r E
+re r e
+rO r O
+ro r o
+wA w A
+wa w a
+N N
+fyA fy A
+fya fy a
+fyU fy U
+fyu fy u
+fyE fy E
+fye fy e
+fyO fy O
+fyo fy o
+vya vy a
+vyu vy u
+vyU vy U
+vye vy e
+vyo vy o
+wu w u
+wU w U
+tye ty e
+tyE ty E
+qa GlottalStop a
+qe GlottalStop e
+qi GlottalStop i
+qo GlottalStop o
+qu GlottalStop u
+qA GlottalStop A
+qE GlottalStop E
+qI GlottalStop I
+qO GlottalStop O
+qU GlottalStop U
+s s
+h h
+sh sh
+q GlottalStop
+gs GlottalStop
+vf Edge
+VocalFry Edge
+vocalfry Edge
+Edge Edge
+edge Edge
+GlottalStop GlottalStop
+glottalstop GlottalStop
