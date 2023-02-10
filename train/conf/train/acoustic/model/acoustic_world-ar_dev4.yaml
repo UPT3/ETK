@@ -15,7 +15,7 @@ netG:
   # NOTE: you MUST set in_lf0_idx and out_lf0_idx correctly
   # otherwise the model does't work at all
   in_rest_idx: 0
-  in_lf0_idx: 314
+  in_lf0_idx: 311
   out_lf0_idx: 60
   # Please leave the following parameters unspecified if you want to
   # find the corresponding values automatically from in/out scalers.
