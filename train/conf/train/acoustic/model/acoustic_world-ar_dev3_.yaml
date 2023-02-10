@@ -56,7 +56,7 @@ netG:
     out_dim: 60
     in_ph_start_idx: 150
     in_ph_end_idx: 199
-    embed_dim: null
+    embed_dim: 256
     ff_hidden_dim: 1024
     conv_hidden_dim: 512
     lstm_hidden_dim: 256
@@ -82,7 +82,7 @@ netG:
     out_dim: 5
     in_ph_start_idx: 150
     in_ph_end_idx: 199
-    embed_dim: null
+    embed_dim: 256
     ff_hidden_dim: 1024
     conv_hidden_dim: 512
     lstm_hidden_dim: 256
@@ -107,7 +107,7 @@ netG:
     in_dim: 366 # (x, lf0, bap0)
     in_ph_start_idx: 150
     in_ph_end_idx: 199
-    embed_dim: null
+    embed_dim: 256
     ff_hidden_dim: 256
     conv_hidden_dim: 128
     lstm_hidden_dim: 64
