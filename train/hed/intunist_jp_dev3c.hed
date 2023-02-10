@@ -210,7 +210,6 @@ QS      "C-Phone_r"                             {*-r+*}
 QS      "C-Phone_ry"                            {*-ry+*}
 QS      "C-Phone_s"                             {*-s+*}
 QS      "C-Phone_sh"                            {*-sh+*}
-QS      "C-Phone_sil"                           {*-sil+*}
 QS      "C-Phone_t"                             {*-t+*}
 QS      "C-Phone_ts"                            {*-ts+*}
 QS      "C-Phone_ty"                            {*-ty+*}
@@ -262,7 +261,6 @@ QS      "L-Phone_r"                             {*^r-*}
 QS      "L-Phone_ry"                            {*^ry-*}
 QS      "L-Phone_s"                             {*^s-*}
 QS      "L-Phone_sh"                            {*^sh-*}
-QS      "L-Phone_sil"                           {*^sil-*}
 QS      "L-Phone_t"                             {*^t-*}
 QS      "L-Phone_ts"                            {*^ts-*}
 QS      "L-Phone_ty"                            {*^ty-*}
@@ -314,7 +312,6 @@ QS      "R-Phone_r"                             {*+r=*}
 QS      "R-Phone_ry"                            {*+ry=*}
 QS      "R-Phone_s"                             {*+s=*}
 QS      "R-Phone_sh"                            {*+sh=*}
-QS      "R-Phone_sil"                           {*+sil=*}
 QS      "R-Phone_t"                             {*+t=*}
 QS      "R-Phone_ts"                            {*+ts=*}
 QS      "R-Phone_ty"                            {*+ty=*}
