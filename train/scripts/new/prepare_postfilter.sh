@@ -48,4 +48,4 @@ for s in ${datasets[@]}; do
 done
 
 # for convenience
-cp -v $scaler_path $expdir/acoustic/norm/in_postfilter_scaler1.joblib
+cp -v $scaler_path $expdir/acoustic/norm/in_postfilter_scaler.joblib
