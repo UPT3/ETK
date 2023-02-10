@@ -399,6 +399,7 @@ CQS     "e22_position_by_96th_note"             {$(\d+)&}
 CQS     "e23_position_by_96th_note"             {&(\d+)%}
 CQS     "e24_position_by_percent"               {%(\d+)[}
 CQS     "e25_position_by_percent"               {[(\d+)|}
+CQS     "e26"                                   {|(\d+)]}
 
 CQS     "e57"                                   {~([pm]\d+)+}
 CQS     "e58"                                   {+([pm]\d+)!}
