@@ -20,7 +20,7 @@ else
     post_args=""
 fi
 
-xrun nnsvs-train-resf0 $ext $hydra_opt \
+xrun nnsvs-train-acoustic $ext $hydra_opt \
     +data.in_scaler_path=$dump_norm_dir/in_acoustic_scaler.joblib \
     +data.out_scaler_path=$dump_norm_dir/out_acoustic_scaler.joblib \
     model=$acoustic_model train=$acoustic_train data=$acoustic_data \
@@ -33,3 +33,17 @@ xrun nnsvs-train-resf0 $ext $hydra_opt \
     train.out_dir=$expdir/acoustic \
     train.resume.checkpoint=$resume_checkpoint $post_args \
     ++data.sample_rate=$sample_rate
+    
+#xrun nnsvs-train-resf0 $ext $hydra_opt \
+#    +data.in_scaler_path=$dump_norm_dir/in_acoustic_scaler.joblib \
+#    +data.out_scaler_path=$dump_norm_dir/out_acoustic_scaler.joblib \
+#    model=$acoustic_model train=$acoustic_train data=$acoustic_data \
+#    data.train_no_dev.in_dir=$dump_norm_dir/$train_set/in_acoustic/ \
+#    data.train_no_dev.out_dir=$dump_norm_dir/$train_set/out_acoustic/ \
+#    data.dev.in_dir=$dump_norm_dir/$dev_set/in_acoustic/ \
+#    data.dev.out_dir=$dump_norm_dir/$dev_set/out_acoustic/ \
+#    data.in_scaler_path=$dump_norm_dir/in_acoustic_scaler.joblib \
+#    data.out_scaler_path=$dump_norm_dir/out_acoustic_scaler.joblib \
+#    train.out_dir=$expdir/acoustic \
+#    train.resume.checkpoint=$resume_checkpoint $post_args \
+#    ++data.sample_rate=$sample_rate
